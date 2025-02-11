@@ -70,6 +70,10 @@ body {
   z-index: 2;
 }
 
+.table tbody {
+  overflow-y: auto;
+}
+
 /* Bottom Section */
 .bottom-section {
   position: absolute;
