@@ -47,6 +47,20 @@ body {
   overflow-y: auto;
 }
 
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #343a40;
+  z-index: 2;
+}
+
+.table tfoot td {
+  position: sticky;
+  bottom: 0;
+  background-color: #343a40;
+  z-index: 2;
+}
+
 /* Bottom Section */
 .bottom-section {
   height: 10vh;
