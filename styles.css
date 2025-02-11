@@ -39,11 +39,11 @@ body {
 .content-container {
   position: absolute;
   top: 15vh;
-  left: 10vw;
+  left: 15vw;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
-  width: 80vw;
+  width: 70vw;
   height: 70vh;
 }
 
