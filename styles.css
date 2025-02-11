@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 10%;
+  height: 12%;
   width: 100%;
   background-color: white;
   color: black;
@@ -22,9 +22,9 @@ body {
 /* Middle Section with Vanta.js Background */
 .vanta-container {
   position: absolute;
-  top: 15%;
+  top: 17%;
   left: 0;
-  height: 80%;
+  height: 78%;
   width: 100%;
   overflow: hidden;
   background: black;
@@ -38,7 +38,7 @@ body {
 
 .content-container {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 15%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.7);
