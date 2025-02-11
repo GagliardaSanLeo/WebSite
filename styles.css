@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   background-color: white;
   color: black;
@@ -22,9 +22,9 @@ body {
 /* Middle Section with Vanta.js Background */
 .vanta-container {
   position: absolute;
-  top: 30vh;
+  top: 20vh;
   left: 0;
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   overflow: hidden;
   background: black;
@@ -38,14 +38,14 @@ body {
 
 .content-container {
   position: absolute;
-  top: 20vh;
+  top: 10vh;
   left: 10vw;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem;
   border-radius: 10px;
   width: 80vw;
-  height: 60vh;
+  height: 70vh;
 }
 
 .table-responsive {
