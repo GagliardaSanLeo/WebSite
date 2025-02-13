@@ -14,27 +14,35 @@ VANTA.NET({
   backgroundColor: 0x000000
 });
 
-// Load standings data
+// Load standings data and build rows dynamically
 document.addEventListener("DOMContentLoaded", function () {
   fetch('data.json')
     .then(response => response.json())
     .then(data => {
-      const tableBody = document.getElementById("standingsTable");
+      const bodyContainer = document.querySelector(".custom-body");
 
       data.teams.forEach(item => {
-        const row = document.createElement("tr");
+        // Create a row container
+        const row = document.createElement("div");
+        row.classList.add("custom-row");
 
-        const teamCell = document.createElement("td");
-        teamCell.textContent = item.team;
-        row.appendChild(teamCell);
+        // Create team column
+        const teamDiv = document.createElement("div");
+        teamDiv.classList.add("custom-col");
+        teamDiv.textContent = item.team;
+        row.appendChild(teamDiv);
 
-        const pointsCell = document.createElement("td");
-        pointsCell.textContent = item.points;
-        row.appendChild(pointsCell);
+        // Create points column
+        const pointsDiv = document.createElement("div");
+        pointsDiv.classList.add("custom-col");
+        pointsDiv.textContent = item.points;
+        row.appendChild(pointsDiv);
 
-        tableBody.appendChild(row);
+        // Append row to body container
+        bodyContainer.appendChild(row);
       });
 
+      // Update last updated date in the footer
       document.getElementById("lastUpdatedDate").textContent = data.lastUpdate;
     })
     .catch(error => console.error("Error fetching JSON:", error));
