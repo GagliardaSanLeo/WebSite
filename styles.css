@@ -66,6 +66,7 @@ body {
 .table thead th {
   position: sticky;
   top: 0;
+  width: 50%;
   background-color: black;
   color: white;
   z-index: 2;
