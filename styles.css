@@ -68,6 +68,7 @@ body {
 /* Header and Footer Styling */
 .custom-header,
 .custom-footer {
+  height: 10%;
   background-color: black;
   color: white;
   padding: 10px;
@@ -87,6 +88,7 @@ body {
 
 /* Scrollable Body */
 .custom-body {
+  height: 80%;
   flex: 1;
   overflow-y: auto;
 }
@@ -104,10 +106,10 @@ body {
 
 /* Alternating row backgrounds for contrast */
 .custom-row:nth-child(odd) {
-  background-color: #1f1f1f;
+  background-color: #2a2a2a;
 }
 .custom-row:nth-child(even) {
-  background-color: #2a2a2a;
+  background-color: #1f1f1f;
 }
 
 /* Hover effect for better tracking */
