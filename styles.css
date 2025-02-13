@@ -88,9 +88,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.table tbody td {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
 .table tbody tr {
   display: table;
-  min-width: 100%;
   width: 100%;
   table-layout: fixed;
 }
