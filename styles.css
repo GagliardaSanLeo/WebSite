@@ -87,6 +87,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
 /* Bottom Section */
 .bottom-section {
   position: absolute;
