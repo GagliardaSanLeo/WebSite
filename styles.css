@@ -11,13 +11,22 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 17%;
+  height: 12%;
   width: 100%;
   color: black;  
   background-color: #E5B80B;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.second-section {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  height: 5%;
+  width: 100%;
+  background-color: #E5B80B;
 }
 
 /* Middle Section with Vanta.js Background */
