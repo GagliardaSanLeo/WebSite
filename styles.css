@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #EFBF04;
+  background-color: #B8860B;
   margin: 0;
   padding: 0;
 }
@@ -89,7 +89,8 @@ body {
 }
 
 .table tbody tr {
-  display: table;
+  display: table-row;
+  min-width: 100%;
   width: 100%;
   table-layout: fixed;
 }
