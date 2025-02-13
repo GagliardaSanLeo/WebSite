@@ -21,6 +21,10 @@ body {
   z-index: 3;
 }
 
+.top-section h1 {
+  font-weight: bold;
+}
+
 /* Background Band */
 .second-section {
   position: absolute;
@@ -72,6 +76,7 @@ body {
   background-color: black;
   color: white;
   padding: 10px;
+  font-weight: bold;
 }
 
 .custom-header {
