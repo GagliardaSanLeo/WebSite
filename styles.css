@@ -65,20 +65,17 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
 /* Header and Footer Styling */
 .custom-header,
 .custom-footer {
-  height: 6%;
   background-color: black;
   color: white;
   padding: 10px;
-  display: flex;
   font-weight: bold;  
-  align-items: center;
-  justify-content: center;
 }
 
 .custom-header {
@@ -93,20 +90,16 @@ body {
 
 /* Scrollable Body */
 .custom-body {
-  height: 88%;
   flex: 1;
   overflow-y: auto;
 }
 
 /* Row and Column Styling */
 .custom-row {
-  height: 8%;
   display: flex;
   padding: 12px 15px;
   border-bottom: 1px solid #444;
   color: white;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   font-size: 1rem;
   line-height: 1.5;
