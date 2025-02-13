@@ -11,31 +11,23 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 12%;
   width: 100%;
-  color: black;  
+  height: 12%;
   background-color: #E5B80B;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
-.second-section {
-  position: absolute;
-  top: 12%;
-  left: 0;
-  height: 5%;
-  width: 100%;
-  background-color: #E5B80B;
-}
-
-/* Middle Section with Vanta.js Background */
+/* Vanta Background Section */
 .vanta-container {
   position: absolute;
   top: 17%;
   left: 0;
-  height: 83%;
   width: 100%;
+  height: 83%;
   overflow: hidden;
   background: black;
 }
@@ -46,59 +38,78 @@ body {
   z-index: 0;
 }
 
-.content-container {
+/* Custom Standings Container */
+.custom-standings-container {
   position: absolute;
   top: 12%;
-  left: 15%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
+  width: 70%;
+  max-width: 800px;
+  height: 70%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
-  width: 70%;
-  height: 70%;
-}
-
-.table-responsive {
-  position: relative;
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
-  table-layout: fixed;
 }
 
-.table {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.table thead th {
-  position: sticky;
-  top: 0;
-  width: 50%;
+/* Header and Footer Styling */
+.custom-header,
+.custom-footer {
   background-color: black;
   color: white;
-  z-index: 2;
+  padding: 10px;
 }
 
-.table tfoot td {
-  position: sticky;
-  bottom: 0;
-  background-color: black;
-  color: white;
-  z-index: 2;
+.custom-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
 }
 
-.table tbody {
-  width: 100%;
-  height: 100%;
-  display: block;
+.custom-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+/* Scrollable Body */
+.custom-body {
+  flex: 1;
   overflow-y: auto;
-  scroll-behavior: smooth;
 }
 
-.table tbody tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
+/* Row and Column Styling */
+.custom-row {
+  display: flex;
+  border-bottom: 1px solid #444;
+  padding: 8px 10px;
+}
+
+.custom-row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05); /* subtle stripe effect */
+}
+
+.custom-col {
+  flex: 1;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .custom-standings-container {
+    width: 90%;
+    height: 75%;
+    top: 15%;
+  }
+  .custom-header, .custom-footer {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  .custom-row {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+  }
 }
