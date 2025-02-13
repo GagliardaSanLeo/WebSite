@@ -1,6 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +25,7 @@ body {
   position: absolute;
   top: 17%;
   left: 0;
-  height: 78%;
+  height: 83%;
   width: 100%;
   overflow: hidden;
   background: black;
@@ -92,13 +93,4 @@ body {
   min-width: 100%;
   width: 100%;
   table-layout: fixed;
-}
-
-/* Bottom Section */
-.bottom-section {
-  position: absolute;
-  bottom: 0;
-  height: 5%;
-  width: 100%;
-  background-color: #E5B80B;
 }
