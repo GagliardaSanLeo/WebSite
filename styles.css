@@ -62,7 +62,7 @@ body {
   height: 100%;
 }
 
-.table thead th {
+.table thead {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -72,7 +72,7 @@ body {
   z-index: 2;
 }
 
-.table tfoot td {
+.table tfoot {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -92,7 +92,6 @@ body {
 
 .table tbody tr {
   display: table;
-  min-width: 100%;
   width: 100%;
   table-layout: fixed;
 }
