@@ -52,13 +52,12 @@ body {
 /* Custom Standings Container */
 .custom-standings-container {
   position: absolute;
-  top: 17%;
-  left: 50%;
+  top: 12%;
+  left: 15%;
   transform: translateX(-50%);
   z-index: 4;
   width: 70%;
-  max-width: 800px;
-  height: 70%;
+  height: 80%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   display: flex;
@@ -110,10 +109,6 @@ body {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-  .custom-standings-container {
-    width: 90%;
-    height: 75%;
-  }
   .custom-header, .custom-footer {
     padding: 8px;
     font-size: 0.9rem;
