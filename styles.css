@@ -68,7 +68,7 @@ body {
 /* Header and Footer Styling */
 .custom-header,
 .custom-footer {
-  height: 10%;
+  height: 7%;
   background-color: black;
   color: white;
   padding: 10px;
@@ -88,7 +88,7 @@ body {
 
 /* Scrollable Body */
 .custom-body {
-  height: 80%;
+  height: 86%;
   flex: 1;
   overflow-y: auto;
 }
