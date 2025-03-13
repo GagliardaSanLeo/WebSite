@@ -38,6 +38,12 @@ document.addEventListener("DOMContentLoaded", function () {
         pointsDiv.textContent = item.points;
         row.appendChild(pointsDiv);
 
+        // Create attendances column
+        const attendancesDiv = document.createElement("div");
+        attendacesDiv.classList.add("custom-col");
+        attendancesDiv.textContent = item.attendances;
+        row.appendChild(attendancesDiv);
+
         // Append row to body container
         bodyContainer.appendChild(row);
       });
