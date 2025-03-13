@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Create attendances column
         const attendancesDiv = document.createElement("div");
-        attendacesDiv.classList.add("custom-col");
+        attendancesDiv.classList.add("custom-col");
         attendancesDiv.textContent = item.attendances;
         row.appendChild(attendancesDiv);
 
