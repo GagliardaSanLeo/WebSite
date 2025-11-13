@@ -25,9 +25,11 @@
 {"team": "Lucani", "points": 8, "attendances": 3},
 {"team": "Ciro", "points": 7, "attendances": 3},
 {"team": "Dona", "points": 7, "attendances": 3},
-{"team": "Matti", "points": 3, "attendances": 2}],
-  "lastUpdate": 13-11-2025"
+{"team": "Matti", "points": 3, "attendances": 2}
+  ],
+  "lastUpdate": "13-11-2025"
 }
+
 
 
 
