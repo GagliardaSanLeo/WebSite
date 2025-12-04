@@ -1,7 +1,7 @@
 {
   "teams": [
 {"team": "Dade", "points": 20, "attendances": 9},
-{"team": "Driu", "points": 19, "attendances": 7},
+{"team": "Driu", "points": 19, "attendances": 8},
 {"team": "Falta", "points": 18, "attendances": 9},
 {"team": "Jack", "points": 18, "attendances": 9},
 {"team": "Galla", "points": 18, "attendances": 8},
@@ -29,6 +29,7 @@
   ],
   "lastUpdate": "27-11-2025"
 }
+
 
 
 
