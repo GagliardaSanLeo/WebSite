@@ -1,34 +1,35 @@
 {
   "teams": [
-{"team": "Dade", "points": 20, "attendances": 9},
-{"team": "Driu", "points": 19, "attendances": 8},
-{"team": "Falta", "points": 18, "attendances": 9},
-{"team": "Jack", "points": 18, "attendances": 9},
-{"team": "Galla", "points": 18, "attendances": 8},
-{"team": "Coli", "points": 17, "attendances": 8},
-{"team": "Reis", "points": 16, "attendances": 9},
-{"team": "Burro", "points": 16, "attendances": 8},
-{"team": "Faffo", "points": 16, "attendances": 8},
-{"team": "Ferro G.", "points": 16, "attendances": 8},
-{"team": "Marco", "points": 16, "attendances": 7},
-{"team": "Claudiano", "points": 15, "attendances": 9},
-{"team": "Frangi", "points": 15, "attendances": 9},
-{"team": "Guerra", "points": 15, "attendances": 8},
-{"team": "Lomba", "points": 15, "attendances": 8},
-{"team": "Dami", "points": 15, "attendances": 7},
-{"team": "Scarto", "points": 14, "attendances": 8},
-{"team": "Miky", "points": 14, "attendances": 7},
+{"team": "Dade", "points": 22, "attendances": 10},
+{"team": "Driu", "points": 21, "attendances": 9},
+{"team": "Falta", "points": 20, "attendances": 10},
+{"team": "Jack", "points": 20, "attendances": 10},
+{"team": "Galla", "points": 20, "attendances": 9},
+{"team": "Coli", "points": 19, "attendances": 9},
+{"team": "Reis", "points": 18, "attendances": 10},
+{"team": "Burro", "points": 18, "attendances": 9},
+{"team": "Faffo", "points": 18, "attendances": 9},
+{"team": "Ferro G.", "points": 18, "attendances": 9},
+{"team": "Marco", "points": 18, "attendances": 8},
+{"team": "Claudiano", "points": 17, "attendances": 10},
+{"team": "Frangi", "points": 17, "attendances": 10},
+{"team": "Guerra", "points": 17, "attendances": 10},
+{"team": "Lomba", "points": 17, "attendances": 9},
+{"team": "Dami", "points": 17, "attendances": 8},
+{"team": "Scarto", "points": 16, "attendances": 9},
+{"team": "Miky", "points": 16, "attendances": 8},
+{"team": "Mori", "points": 15, "attendances": 8},
 {"team": "Tanga", "points": 14, "attendances": 7},
-{"team": "Mori", "points": 13, "attendances": 7},
+{"team": "Ciro", "points": 14, "attendances": 6},
 {"team": "AliBomber", "points": 12, "attendances": 7},
 {"team": "Klevis", "points": 12, "attendances": 6},
-{"team": "Ciro", "points": 12, "attendances": 5},
-{"team": "Lucani", "points": 8, "attendances": 3},
+{"team": "Lucani", "points": 10, "attendances": 4},
 {"team": "Dona", "points": 7, "attendances": 3},
 {"team": "Matti", "points": 6, "attendances": 4}
   ],
-  "lastUpdate": "05-12-2025"
+  "lastUpdate": "11-12-2025"
 }
+
 
 
 
