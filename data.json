@@ -1,34 +1,35 @@
 {
   "teams": [
-{"team": "Burro", "points": 7, "attendances": 3},
-{"team": "Dade", "points": 7, "attendances": 3},
+{"team": "Burro", "points": 9, "attendances": 4},
+{"team": "Dade", "points": 8, "attendances": 4},
+{"team": "Falta", "points": 8, "attendances": 4},
+{"team": "Lori", "points": 8, "attendances": 4},
+{"team": "Reis", "points": 8, "attendances": 4},
+{"team": "Alibomber", "points": 8, "attendances": 3},
+{"team": "Klevis", "points": 8, "attendances": 3},
+{"team": "Frangi", "points": 7, "attendances": 3},
 {"team": "Mori", "points": 7, "attendances": 3},
-{"team": "Falta", "points": 5, "attendances": 3},
-{"team": "Lori", "points": 5, "attendances": 3},
-{"team": "Reis", "points": 5, "attendances": 3},
-{"team": "Alibomber", "points": 5, "attendances": 2},
+{"team": "Scarto", "points": 6, "attendances": 3},
+{"team": "Tanga", "points": 6, "attendances": 3},
+{"team": "Coli", "points": 5, "attendances": 3},
+{"team": "Ferro N.", "points": 5, "attendances": 3},
+{"team": "Lomba", "points": 5, "attendances": 3},
+{"team": "Matti", "points": 5, "attendances": 3},
 {"team": "Ferro G.", "points": 5, "attendances": 2},
-{"team": "Klevis", "points": 5, "attendances": 2},
+{"team": "Marco", "points": 5, "attendances": 2},
 {"team": "Miky", "points": 5, "attendances": 2},
+{"team": "Faffo", "points": 4, "attendances": 3},
 {"team": "Claudiano", "points": 4, "attendances": 2},
-{"team": "Coli", "points": 4, "attendances": 2},
-{"team": "Ferro N.", "points": 4, "attendances": 2},
-{"team": "Frangi", "points": 4, "attendances": 2},
-{"team": "Lomba", "points": 4, "attendances": 2},
-{"team": "Matti", "points": 4, "attendances": 2},
-{"team": "Tanga", "points": 4, "attendances": 2},
 {"team": "Ciro", "points": 3, "attendances": 2},
 {"team": "Driu", "points": 3, "attendances": 2},
-{"team": "Faffo", "points": 3, "attendances": 2},
-{"team": "Scarto", "points": 3, "attendances": 2},
+{"team": "Jack", "points": 3, "attendances": 2},
 {"team": "Dami", "points": 3, "attendances": 1},
-{"team": "Jack", "points": 2, "attendances": 1},
-{"team": "Marco", "points": 2, "attendances": 1},
-{"team": "Mirco", "points": 2, "attendances": 1},
-{"team": "Galla", "points": 1, "attendances": 1}
+{"team": "Galla", "points": 2, "attendances": 2},
+{"team": "Mirco", "points": 2, "attendances": 1}
   ],
-  "lastUpdate": "26-01-2026"
+  "lastUpdate": "02-02-2026"
 }
+
 
 
 
