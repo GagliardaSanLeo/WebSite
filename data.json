@@ -1,22 +1,22 @@
 {
   "teams": [
-{"team": "Dade", "points": 10, "attendances": 5},
-{"team": "Lori", "points": 10, "attendances": 5},
-{"team": "Reis", "points": 10, "attendances": 5},
+{"team": "Dade", "points": 13, "attendances": 6},
+{"team": "Lori", "points": 13, "attendances": 6},
+{"team": "Reis", "points": 13, "attendances": 6},
+{"team": "Frangi", "points": 12, "attendances": 5},
+{"team": "Burro", "points": 11, "attendances": 5},
+{"team": "Tanga", "points": 10, "attendances": 5},
 {"team": "Klevis", "points": 10, "attendances": 4},
-{"team": "Burro", "points": 9, "attendances": 4},
-{"team": "Frangi", "points": 9, "attendances": 4},
+{"team": "Marco", "points": 10, "attendances": 4},
+{"team": "Falta", "points": 9, "attendances": 5},
 {"team": "Mori", "points": 9, "attendances": 4},
-{"team": "Falta", "points": 8, "attendances": 4},
-{"team": "Tanga", "points": 8, "attendances": 4},
+{"team": "Ferro G.", "points": 8, "attendances": 4},
 {"team": "Alibomber", "points": 8, "attendances": 3},
-{"team": "Ferro G.", "points": 7, "attendances": 3},
-{"team": "Marco", "points": 7, "attendances": 3},
+{"team": "Faffo", "points": 7, "attendances": 5},
+{"team": "Scarto", "points": 7, "attendances": 4},
 {"team": "Miky", "points": 7, "attendances": 3},
-{"team": "Faffo", "points": 6, "attendances": 4},
-{"team": "Scarto", "points": 6, "attendances": 3},
+{"team": "Driu", "points": 6, "attendances": 4},
 {"team": "Coli", "points": 5, "attendances": 3},
-{"team": "Driu", "points": 5, "attendances": 3},
 {"team": "Ferro N.", "points": 5, "attendances": 3},
 {"team": "Jack", "points": 5, "attendances": 3},
 {"team": "Lomba", "points": 5, "attendances": 3},
@@ -28,8 +28,9 @@
 {"team": "Dona", "points": 2, "attendances": 1},
 {"team": "Mirco", "points": 2, "attendances": 1}
   ],
-  "lastUpdate": "06-02-2026"
+  "lastUpdate": "14-02-2026"
 }
+
 
 
 
