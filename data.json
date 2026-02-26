@@ -12,7 +12,7 @@
 {"team": "Ferro G.", "points": 12, "attendances": 6},
 {"team": "Tanga", "points": 12, "attendances": 6},
 {"team": "Alibomber", "points": 12, "attendances": 5},
-{"team": "Scarto", "points": 11, "attendances": 6},
+{"team": "Scarto", "points": 11, "attendances": 7},
 {"team": "Marco", "points": 11, "attendances": 5},
 {"team": "Miky", "points": 11, "attendances": 5},
 {"team": "Ferro N.", "points": 9, "attendances": 5},
@@ -31,6 +31,7 @@
   ],
   "lastUpdate": "26-02-2026"
 }
+
 
 
 
